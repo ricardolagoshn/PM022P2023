@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM022P2023.Views.PageListEmple">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="btnconsulta" Text="Consultar Api" Clicked="btnconsulta_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

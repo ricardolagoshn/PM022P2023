@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM022P2023.Views.PageCreateAlumn">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Image x:Name="foto" WidthRequest="100" HeightRequest="200" />
+
+            <Button x:Name="btnfoto" Text="Capturar Imagen" Clicked="btnfoto_Clicked" />
+
+            <Entry x:Name="nombres" Placeholder="Nombres" MaxLength="100"  />
+
+            <Entry x:Name="apellidos" Placeholder="Apellidos" MaxLength="100"  />
+
+            <Entry x:Name="direccion" Placeholder="Direccion" MaxLength="100"  />
+
+            <Entry x:Name="telefono" Placeholder="Telefono" MaxLength="100" Keyboard="Numeric" />
+
+            <Button x:Name="btnguardar" Text="Guardar" Clicked="btnguardar_Clicked" />
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
