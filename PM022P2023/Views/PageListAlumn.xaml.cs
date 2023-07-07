@@ -23,6 +23,7 @@ namespace PM022P2023.Views
 
             List<Models.Alumnos> alumnos= new List<Models.Alumnos>();
             alumnos = await Controllers.AlumController.GetAlumnos();
+            listalumn.ItemsSource = alumnos;
         }
     }
 }
